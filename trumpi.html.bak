@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Picture Website</title>
+    <style>
+        body {
+            background-color: #FFB6C1; /* Pink Marshmallow */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; /* To stack elements vertically */
+            height: 100vh;
+            margin: 0;
+        }
+        .title {
+            text-align: center;
+            color: white; /* Set text color to white */
+            font-size: 36px; /* Set font size to 36 pixels */
+            margin-bottom: 20px; /* Add some space below the title */
+        }
+        .content {
+            text-align: center;
+            color: white; /* Set text color to white */
+            position: relative;
+            z-index: 1;
+        }
+        .footer {
+            color: white; /* Set text color to white */
+            position: relative;
+            z-index: 1;
+            margin-top: 20px; /* Add some space above the footer */
+        }
+        h1 {
+            margin-bottom: 20px; /* Add some space below the text */
+        }
+        img {
+            max-width: 100%;
+            max-height: 70%; /* Adjust image height */
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">
+        <h1>Welcome Trumps!</h1>
+    </div>
+    <div class="content">
+        <h1>We are riding our ways to UniSwap!</h1>
+    </div>
+    <div class="footer">
+        <p>CA:0x24aa78a7016f399edc2aa5067383c2ddec6f8766</p>
+    </div>
+    <img src="trump.jpg" alt="Description of your picture">
+</body>
+</html>
